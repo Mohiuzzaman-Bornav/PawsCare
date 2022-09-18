@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title> Paws Care </title>
+	<style type="text/css">
+		table {
+			border: 1px solid black;
+			padding: 100px;
+			border-collapse: collapse;
+			
+		}
+
+		tr, td {
+			padding: 10px;
+		}
+
+		/*.mytable {
+			background-color: red;
+		}*/
+
+		#table1 {
+			background-color: grey;
+			margin-left: 40%; 
+			margin-top: 5%;
+		}
+		
+	</style>
+	<!-- comment -->
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+</head>
+<body>
+
+<form action="registration.php" method="post">
+	<table id="table1" class="mytable">
+
+		<tbody>
+
+			<tr>
+				<td> Username </td>
+				<td> <input id="username" type="text" name="user" placeholder="Username" > </td>
+			</tr>
+
+			<tr>
+				<td> Email  </td>
+				<td> <input id="emailadd" type="text" name="email" placeholder="example@gmail.com" > </td>
+			</tr>
+
+			
+			<tr>
+				<td> Contact No.  </td>
+				<td> <input id="phn_no" type="text" name="phn_no" placeholder="01xxxxxxxxx" > </td>
+			</tr>
+
+			<tr>
+				<td> Password </td>
+				<td> <input type="password" name="pass" placeholder="Password"> </td>
+			</tr>
+
+			<tr>
+				<td> Address </td>
+				<td> <input id="address" type="text" name="add" placeholder="Address" > </td>
+			</tr>
+
+			<tr>
+				<td> Gender </td>
+				<td> <input id="Gender" type="text" name="gen" placeholder="Male/Female" > </td>
+			</tr>
+
+			<tr>
+				<td colspan="2"> <input type="submit" name="btn" value="Create" style="width: 100%"> </td>
+			</tr>
+
+
+
+		</tbody>	
+	</table>
+</form>
+
+
+</body>
+</html>
+
